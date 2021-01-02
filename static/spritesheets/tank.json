@@ -1,0 +1,35 @@
+{
+  "frames": {
+    "TankBrancoBase128.png": {
+      "frame": { "x": 1, "y": 1, "w": 63, "h": 97 },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 32, "y": 2, "w": 63, "h": 97 },
+      "sourceSize": { "w": 128, "h": 128 }
+    },
+    "TankBrancoDetalhes128.png": {
+      "frame": { "x": 40, "y": 66, "w": 64, "h": 60 },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 31, "y": 1, "w": 64, "h": 60 },
+      "sourceSize": { "w": 128, "h": 128 }
+    },
+    "TankBrancoTorre128.png": {
+      "frame": { "x": 1, "y": 66, "w": 37, "h": 89 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 45, "y": 35, "w": 37, "h": 89 },
+      "sourceSize": { "w": 128, "h": 128 }
+    }
+  },
+  "animations": {},
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "tank.png",
+    "format": "RGBA8888",
+    "size": { "w": 101, "h": 156 },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:ea51f6cdeff0bb6da40e9733f431ac4c:20f9c71edfde7c939c643122021fe42e:e5746570371ae3e0565b6e20f5a72ab3$"
+  }
+}

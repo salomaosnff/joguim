@@ -1,0 +1,90 @@
+{
+  "frames": {
+    "CivilianBuild1.png": {
+      "frame": { "x": 1585, "y": 909, "w": 214, "h": 208 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 214, "h": 208 },
+      "sourceSize": { "w": 214, "h": 208 }
+    },
+    "CivilianBuild2.png": {
+      "frame": { "x": 738, "y": 885, "w": 259, "h": 334 },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 259, "h": 334 },
+      "sourceSize": { "w": 259, "h": 334 }
+    },
+    "ComercialBuild.png": {
+      "frame": { "x": 1, "y": 885, "w": 370, "h": 342 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 370, "h": 342 },
+      "sourceSize": { "w": 370, "h": 342 }
+    },
+    "ComercialBuild2.png": {
+      "frame": { "x": 373, "y": 885, "w": 363, "h": 341 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 363, "h": 341 },
+      "sourceSize": { "w": 363, "h": 341 }
+    },
+    "DesertArbust.png": {
+      "frame": { "x": 738, "y": 1146, "w": 77, "h": 73 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 77, "h": 73 },
+      "sourceSize": { "w": 77, "h": 73 }
+    },
+    "DesertTerrain.png": {
+      "frame": { "x": 1074, "y": 909, "w": 256, "h": 256 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 256, "h": 256 },
+      "sourceSize": { "w": 256, "h": 256 }
+    },
+    "DesertTree.png": {
+      "frame": { "x": 1801, "y": 909, "w": 131, "h": 205 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 131, "h": 205 },
+      "sourceSize": { "w": 131, "h": 205 }
+    },
+    "MarketBuild.png": {
+      "frame": { "x": 1332, "y": 909, "w": 215, "h": 251 },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 215, "h": 251 },
+      "sourceSize": { "w": 215, "h": 251 }
+    },
+    "Sources.png": {
+      "frame": { "x": 1120, "y": 1, "w": 849, "h": 906 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 43, "y": 12, "w": 849, "h": 906 },
+      "sourceSize": { "w": 1000, "h": 1000 }
+    },
+    "Synagogue.png": {
+      "frame": { "x": 1, "y": 1, "w": 1117, "h": 882 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 1117, "h": 882 },
+      "sourceSize": { "w": 1117, "h": 882 }
+    },
+    "WoodMaterial.png": {
+      "frame": { "x": 1801, "y": 1116, "w": 143, "h": 104 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 143, "h": 104 },
+      "sourceSize": { "w": 143, "h": 104 }
+    }
+  },
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "desert.png",
+    "format": "RGBA8888",
+    "size": { "w": 1970, "h": 1228 },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:8310345206868b727971754770fb6ca8:2a1c714642fd1608cccc7c26f8f7f263:9079d49d04c46c8a17182f4b724d619f$"
+  }
+}

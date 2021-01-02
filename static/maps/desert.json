@@ -1,0 +1,23 @@
+{
+  "$schema": "./schema.json",
+  "name": "Deserto",
+  "assets": {
+    "desert": "static/spritesheets/desert.json"
+  },
+  "textures": {
+    "terrain": "desert/DesertTerrain.png",
+    "construcao": "desert/ComercialBuild.png",
+    "construcao2": "desert/ComercialBuild2.png"
+  },
+  "width": 5000,
+  "height": 5000,
+  "map": [
+    {
+      "texture": "terrain",
+      "x": 0,
+      "y": 0,
+      "w": "100%",
+      "h": "100%"
+    }
+  ]
+}

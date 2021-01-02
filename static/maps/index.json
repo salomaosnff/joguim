@@ -1,0 +1,8 @@
+[
+  {
+    "id": "desert",
+    "title": "Deserto",
+    "description": "Alguma coisa aqui",
+    "source": "static/maps/desert.json"
+  }
+]

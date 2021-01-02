@@ -1,0 +1,116 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "Arquivo de mapa do jogo",
+  "description": "Este arquivo representa um mapa do jogo",
+  "default": {},
+  "required": ["name", "width", "height", "assets", "textures", "map"],
+  "properties": {
+    "name": {
+      "$id": "#/properties/name",
+      "type": "string",
+      "title": "Nome do mapa",
+      "description": "Um nome qualquer para diferenciar de outros mapas",
+      "examples": ["Deserto", "Agua", "Cidade"]
+    },
+    "width": {
+      "$id": "#/properties/width",
+      "type": "number",
+      "title": "Largura do mapa",
+      "description": "Deve ser um número com a largura em pixels.",
+      "examples": [300, 250, 5000]
+    },
+    "height": {
+      "$id": "#/properties/height",
+      "type": "number",
+      "title": "Altura do mapa",
+      "description": "Deve ser um número com a altura em pixels.",
+      "examples": [300, 250, 5000]
+    },
+    "assets": {
+      "$id": "#/properties/assets",
+      "description": "Arquivos a serem baixados antes de renderizar o mapa (geralmente são spritesheets)",
+      "additionalProperties": {
+        "type": "string",
+        "description": "Nome do arquivo para a imagem"
+      },
+      "default": {},
+      "examples": [
+        {
+          "meuSpritesheet": "static/spritesheets/meuSpritesheet.json"
+        }
+      ]
+    },
+    "textures": {
+      "$id": "#/properties/textures",
+      "description": "Aliases para arquivos de textura",
+      "additionalProperties": {
+        "type": "string",
+        "description": "Nome do arquivo para a imagem"
+      },
+      "examples": [
+        {
+          "terrain": "meuSpritesheet/terrain.png",
+          "construcao": "meuSpritesheet/construcao.png"
+        }
+      ]
+    },
+    "map": {
+      "$id": "#/properties/map",
+      "type": "array",
+      "title": "Objetos do mapa",
+      "description": "Lista de objetos a serem renderizados",
+      "examples": [
+        [
+          {
+            "x": 0,
+            "y": 0,
+            "texture": "terrain",
+            "w": 1000,
+            "h": 1000
+          }
+        ],
+        [
+          {
+            "x": "random",
+            "y": "random",
+            "texture": "build"
+          }
+        ]
+      ],
+      "items": {
+        "type": "object",
+        "title": "Item do mapa",
+        "description": "Representa um item do mapa",
+        "properties": {
+          "x": {
+            "type": ["number", "string"],
+            "title": "Posição X no mapa",
+            "examples": [0, "50%", 15, "random", 90, "75%", 1024]
+          },
+          "y": {
+            "type": ["number", "string"],
+            "title": "Posição Y no mapa",
+            "examples": [0, "50%", "random", 15, 90, "75%", 1024]
+          },
+          "texture": {
+            "type": "string",
+            "title": "Imagem (Textura) do objeto",
+            "examples": ["terrain", "build"]
+          },
+          "w": {
+            "type": ["number", "string"],
+            "title": "Largura do objeto (usado em texturas de repetição como fundos)",
+            "examples": [0, "25%", 512, "random", "50%", 1024, "100%"]
+          },
+          "h": {
+            "type": ["number", "string"],
+            "title": "Altura do objeto (usado em texturas de repetição como fundos)",
+            "examples": [0, "25%", 512, "random", "50%", 1024, "100%"]
+          }
+        }
+      }
+    }
+  }
+}
